@@ -17,6 +17,8 @@ Jira interactive command line interface, do things in bulk and speedup your work
  <img src="/demo.gif?raw=true" alt="JiraConsole">
 </p>
 
+<hr>
+
 ### Remarkable Features
 
 * View issues.
