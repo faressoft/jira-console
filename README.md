@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/jira-console"><img src="https://img.shields.io/npm/v/jira-console.svg" alt="JiraConsole"></a>
   <a href="https://github.com/faressoft/jira-console/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/jira-console.svg" alt="JiraConsole"></a>
+  <a href="#"><img src="https://img.shields.io/badge/status-UNDER%20DEVELOPEMENT-red.svg" alt="JiraConsole"></a>
 </p>
 
 <p align="center">
