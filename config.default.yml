@@ -1,0 +1,5 @@
+# Jira base url, username, and password
+account:
+  base_url: 'http://jira.example.com:8080'
+  username: userNameHere
+  password: passwordHere
