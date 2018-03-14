@@ -1,24 +1,12 @@
-<h1 align="center">JiraConsole</h1>
+# JiraConsole
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/jira-console"><img src="https://img.shields.io/npm/v/jira-console.svg" alt="JiraConsole"></a>
-  <a href="https://github.com/faressoft/jira-console/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/jira-console.svg" alt="JiraConsole"></a>
-  <a href="#"><img src="https://img.shields.io/badge/status-UNDER%20DEVELOPEMENT-red.svg" alt="JiraConsole"></a>
-</p>
+[![npm](https://img.shields.io/npm/v/jira-console.svg)](https://www.npmjs.com/package/jira-console)
+[![npm](https://img.shields.io/npm/l/jira-console.svg)](https://github.com/faressoft/jira-console/blob/master/LICENSE)
+[![npm](https://img.shields.io/badge/status-UNDER%20DEVELOPEMENT-red.svg)](https://github.com/faressoft/jira-console)
 
-<p align="center">
 Jira interactive command line interface, do things in bulk and speedup your workflow.
-</p>
 
-<p align="center">
- <strong>NOTE!</strong>: THIS PROJECT IS STILL <span style="color: red">UNDER DEVELOPEMENT</span>, subscribe to my github to get my new projects.
-</p>
-
-<p align="center">
- <img src="/demo.gif?raw=true" alt="JiraConsole">
-</p>
-
-<hr>
+![JiraConsole](/demo.gif?raw=true) 
 
 ### Remarkable Features
 
