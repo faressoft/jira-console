@@ -3,13 +3,11 @@
 [![npm](https://img.shields.io/npm/v/jira-console.svg)](https://www.npmjs.com/package/jira-console)
 [![npm](https://img.shields.io/npm/l/jira-console.svg)](https://github.com/faressoft/jira-console/blob/master/LICENSE)
 
-![Demo](/demo.gif?raw=true)
-
-**NOTE!**: THIS PROJECT IS STILL <span style="color: red">UNDER DEVELOPEMENT</span>, subscribe to my github to get my new projects.
-
-# About
-
 Jira interactive command line interface, do things in bulk and speedup your workflow.
+
+**NOTE!**: THIS PROJECT IS STILL UNDER DEVELOPEMENT, subscribe to my github to get my new projects.
+
+![Demo](/demo.gif?raw=true)
 
 ### Remarkable Features
 
