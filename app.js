@@ -27,7 +27,7 @@ var request      = require('request')
   , fuzzy        = require('fuzzy');
 
 var config       = require('./config')
-  , data        = require('./data')
+  , data         = require('./data')
   , input        = require('./input')
   , tasks        = require('./tasks')
   , api          = require('./api')
