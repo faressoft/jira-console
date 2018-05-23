@@ -4,35 +4,35 @@
  * @author Mohammad Fares <faressoft.com@gmail.com>
  */
 
-var request      = require('request')
-  , is           = require('is_js')
-  , q            = require('q')
-  , inquirer     = require('inquirer')
-  , lodash       = require('lodash')
-  , moment       = require('moment')
-  , async        = require('async')
-  , glob         = require('glob')
-  , clear        = require('clear')
-  , chalk        = require('chalk')
-  , yaml         = require('js-yaml')
-  , ora          = require('ora')
-  , fs           = require('fs-extra')
-  , onChange     = require('on-change')
-  , changeCase   = require('change-case')
-  , Listr        = require('listr')
-  , EventEmitter = require('events')
-  , url          = require('url')
-  , querystring  = require('querystring')
-  , Flow         = require('step-flow')
-  , fuzzy        = require('fuzzy');
+var request      = require('request'),
+    is           = require('is_js'),
+    q            = require('q'),
+    inquirer     = require('inquirer'),
+    lodash       = require('lodash'),
+    moment       = require('moment'),
+    async        = require('async'),
+    glob         = require('glob'),
+    clear        = require('clear'),
+    chalk        = require('chalk'),
+    yaml         = require('js-yaml'),
+    ora          = require('ora'),
+    fs           = require('fs-extra'),
+    onChange     = require('on-change'),
+    changeCase   = require('change-case'),
+    Listr        = require('listr'),
+    EventEmitter = require('events'),
+    url          = require('url'),
+    querystring  = require('querystring'),
+    Flow         = require('step-flow'),
+    fuzzy        = require('fuzzy');
 
-var config       = require('./config')
-  , data         = require('./data')
-  , input        = require('./input')
-  , tasks        = require('./tasks')
-  , api          = require('./api')
-  , jira         = require('./jira')
-  , di           = require('./di');
+var config       = require('./config'),
+    data         = require('./data'),
+    input        = require('./input',),
+    tasks        = require('./tasks',),
+    api          = require('./api'),
+    jira         = require('./jira'),
+    di           = require('./di');
 
 var flow         = new Flow();
 
