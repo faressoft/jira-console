@@ -28,8 +28,8 @@ var request      = require('request'),
 
 var config       = require('./config'),
     data         = require('./data'),
-    input        = require('./input',),
-    tasks        = require('./tasks',),
+    input        = require('./input'),
+    tasks        = require('./tasks'),
     api          = require('./api'),
     jira         = require('./jira'),
     di           = require('./di');
