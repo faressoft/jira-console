@@ -10,14 +10,12 @@ var fs   = require('fs-extra')
 
 /**
  * The path of the config file
- * 
  * @type {String}
  */
 var CONFIG_FILE_NAME = __dirname + '/config.yml';
 
 /**
  * The path of the default config file
- * 
  * @type {String}
  */
 var DEFAULT_CONFIG_FILE_NAME = __dirname + '/config.default.yml';
@@ -30,7 +28,6 @@ var configContent = null;
 
 /**
  * To store the configurations
- * 
  * @type {Object}
  */
 var config = null;
@@ -46,7 +43,7 @@ if (!fs.existsSync(CONFIG_FILE_NAME)) {
 // Read the config file
 configContent = fs.readFileSync(CONFIG_FILE_NAME, 'utf8');
 
-// Parse the config file into object
+// Parse the config file into an object
 config = yaml.load(configContent);
 
 /**
