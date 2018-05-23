@@ -282,71 +282,7 @@ function enterFieldValue(context, next, jump) {
 
   console.log(`Enter the field ${di.chalk.blue(fieldName)} for the issue ${di.chalk.blue(context.currentIssue.fields.summary)} (${context.currentIssue.key})`);
 
-  if (fieldName == 'Assignee') {
-
-    fieldEditMeta.allowedValues = [
-      {id: 'admin', key: 'admin', name: 'Mohammad Fares'},
-      {id: 'admin', key: 'admin', name: 'Josiah Gee'},
-      {id: 'admin', key: 'admin', name: 'Terrance Eisen'},
-      {id: 'admin', key: 'admin', name: 'Donn Mcgee'},
-      {id: 'admin', key: 'admin', name: 'Timmy Purves'},
-      {id: 'admin', key: 'admin', name: 'Leonel Schill'},
-      {id: 'admin', key: 'admin', name: 'Jimmy Peeples'},
-      {id: 'admin', key: 'admin', name: 'Shon Jiminez'},
-      {id: 'admin', key: 'admin', name: 'Andreas Samayoa'},
-      {id: 'admin', key: 'admin', name: 'Manual Ingersoll'},
-      {id: 'admin', key: 'admin', name: 'Wilbur Kamerer'},
-      {id: 'admin', key: 'admin', name: 'Leonardo Carasco'},
-      {id: 'admin', key: 'admin', name: 'Ollie Dana'},
-      {id: 'admin', key: 'admin', name: 'Nick Baird'},
-      {id: 'admin', key: 'admin', name: 'Rubin Um'},
-      {id: 'admin', key: 'admin', name: 'Herb Bohannan'},
-      {id: 'admin', key: 'admin', name: 'Cleveland Bateman'},
-      {id: 'admin', key: 'admin', name: 'Dexter Luckie'},
-      {id: 'admin', key: 'admin', name: 'Alan Blohm'},
-      {id: 'admin', key: 'admin', name: 'Travis Mccrimmon'},
-      {id: 'admin', key: 'admin', name: 'Dorsey Mckeown'},
-      {id: 'admin', key: 'admin', name: 'Stacy Mccorkle'},
-      {id: 'admin', key: 'admin', name: 'Brandon Javier'},
-      {id: 'admin', key: 'admin', name: 'Jamey Umland'},
-      {id: 'admin', key: 'admin', name: 'Neal Paine'},
-      {id: 'admin', key: 'admin', name: 'Evan Kirsch'},
-      {id: 'admin', key: 'admin', name: 'Pete Mascio'},
-      {id: 'admin', key: 'admin', name: 'Ramiro Blakeman'},
-      {id: 'admin', key: 'admin', name: 'Mary Shatley'},
-      {id: 'admin', key: 'admin', name: 'Wendell Agular'},
-      {id: 'admin', key: 'admin', name: 'Joan Dellinger'},
-      {id: 'admin', key: 'admin', name: 'Leroy Rayo'},
-      {id: 'admin', key: 'admin', name: 'Danilo Pigman'},
-      {id: 'admin', key: 'admin', name: 'Lacy Biello'},
-      {id: 'admin', key: 'admin', name: 'Casey Marra'},
-      {id: 'admin', key: 'admin', name: 'Porfirio Cady'},
-      {id: 'admin', key: 'admin', name: 'Michal Neufeld'},
-      {id: 'admin', key: 'admin', name: 'Giovanni Huston'},
-      {id: 'admin', key: 'admin', name: 'Van Steigerwald'},
-      {id: 'admin', key: 'admin', name: 'Barton Hovis'},
-      {id: 'admin', key: 'admin', name: 'Christopher Pearson'},
-      {id: 'admin', key: 'admin', name: 'Emery Benford'},
-      {id: 'admin', key: 'admin', name: 'Abdul Chicoine'},
-      {id: 'admin', key: 'admin', name: 'Adolfo Marte'},
-      {id: 'admin', key: 'admin', name: 'Gerry Ide'},
-      {id: 'admin', key: 'admin', name: 'Benjamin Halliwell'},
-      {id: 'admin', key: 'admin', name: 'Myron Heitz'},
-      {id: 'admin', key: 'admin', name: 'Hal Kowalewski'},
-      {id: 'admin', key: 'admin', name: 'Leigh Vogan'},
-      {id: 'admin', key: 'admin', name: 'Delmar Gilford'},
-      {id: 'admin', key: 'admin', name: 'Brock Macky'},
-    ];
-
-    delete fieldEditMeta.autoCompleteUrl;
-
-  }
-
   di.input.enterField(fieldEditMeta, context.lastValue).then(function(value) {
-
-    if (fieldName == 'Assignee') {
-      value = null;
-    }
 
     context.lastValue = value;
     context.currentIssue.body[fieldId] = value;
